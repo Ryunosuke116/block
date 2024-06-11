@@ -15,6 +15,6 @@ public class BarController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        myRigidbody.velocity = new Vector3(Input.GetAxis("Horizon")*speed,0,0);
+        myRigidbody.velocity = new Vector3(Input.GetAxis("Horizontal")*speed,0,0);
     }
 }
